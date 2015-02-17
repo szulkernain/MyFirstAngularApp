@@ -1,0 +1,22 @@
+[
+  {
+    "recipient": "szulkernain@cooking.com",
+    "subject": "test email 1",
+    "content": "test email 1 content"
+  },
+  {
+    "recipient": "szulkernain@gmail.com",
+    "subject": "test email 2",
+    "content": "test email 2 content"
+  },
+  {
+    "recipient": "szulkernain@yahoo.com",
+    "subject": "test email 3",
+    "content": "test email 3 content"
+  },
+  {
+    "recipient": "szulkernain@gmail.com",
+    "subject": "hi",
+    "content": "wow"
+  }
+]

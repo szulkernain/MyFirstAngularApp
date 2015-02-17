@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "New Message";
+}
+
+<h2>New Message</h2>
+
+<form name="newEmailForm" ng-controller="NewEmailController">
+    <div ng-show="confirmation">{{confirmation}}</div>
+    <div>To: <input type="email" name="to" ng-model="email.recipient" required/></div>
+    <div>Subject: <input name="subject" ng-model="email.subject" required /></div>
+    <div>Content: <textarea cols="30" rows="5" name="content" ng-model="email.content" required></textarea></div>
+    <div><button ng-click="SendEmail()" ng-disabled="!newEmailForm.$valid">Send Email</button></div>
+</form>
+
