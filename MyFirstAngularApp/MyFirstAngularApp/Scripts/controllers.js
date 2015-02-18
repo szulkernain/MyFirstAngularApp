@@ -3,6 +3,7 @@
 
     firstApp.config(['$httpProvider', function ($httpProvider) {
         delete $httpProvider.defaults.headers.common["X-Requested-With"];
+        $httpProvider.defaults.cache = false;
     }]);
 
     firstApp.controller('EmailsController', function($scope, $http) {
@@ -26,4 +27,4 @@
                 });
         };
     });
-})();
+}());
